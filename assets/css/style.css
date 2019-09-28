@@ -1,0 +1,396 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-section {
+    display: flex;
+    background: #353434cf;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+ul.header-ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+li.header-li {
+    padding: 20px;
+}
+
+a.nav-anchor {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.logo {
+    border: 2px solid white;
+    font-size: 26px;
+    padding: 11px 16px;
+    text-align: center;
+    color: white;
+    margin: 0px 50px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.header-search {
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: 50px !important;
+    z-index: 999 !important;
+}
+
+.slick-next {
+    right: 50px !important;
+    z-index: 999 !important;
+}
+
+.slick-slider {
+    margin-bottom: 0px !important;
+}
+
+.caraousel-image {
+    max-width: 100%;
+}
+
+.caraousel-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: white;
+    font-size: 120px;
+    font-weight: 600;
+}
+
+button.top-button {
+    margin-top: 50px;
+    border: none;
+    padding: 20px 55px;
+    color: white;
+    background: blue;
+    font-size: 14px;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.container {
+    background: #202020;
+    margin-top: -2px;
+}
+
+h2.service-heading {
+    margin-top: 0px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 40px 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.service-flex {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 1170px;
+}
+
+.inner-section {
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+img.service-image {
+    max-height: 65px;
+}
+
+.service-inner-heading {
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+
+.service-heading {
+    line-height: 30px;
+    color: #c4bfbf;
+    font-size: 17px;
+}
+
+button.button-inner {
+    border: none;
+    padding: 20px 55px;
+    color: white;
+    background: blue;
+    font-size: 14px;
+    border-radius: 6px;
+    margin: 50px 0px 100px 0px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.section-button {
+    text-align: center;
+    cursor: pointer;
+}
+
+section.trainers-container {
+    background-image: url("../images/trainer-bg.jpg");
+
+}
+
+.trainers-section {
+    text-align: center;
+    padding: 25px;
+}
+
+.trainers-text {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 100px 0px 13px 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h2.trainers-heading {
+    margin-top: 0px;
+    color: white;
+    font-size: 47px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+}
+
+.trainer-flex {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 1170px;
+}
+
+.trainer-name {
+    padding: 27px 14px 0 14px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.inner-trainer-section {
+    margin: 0px 20px;
+    color: #c0c0c0;
+    text-align: center;
+    position: relative;
+}
+
+.pop-up-trigger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    padding: 30px 40px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    background: blue;
+    cursor: pointer;
+}
+
+.bg-white {
+    background: #fff !important;
+    padding: 105px 0;
+    border-top: 2px solid #000;
+}
+
+.bg-white .service-inner-heading {
+    color: #000;
+}
+
+.icon-image-overlap {
+    height: 85px;
+    width: 85px;
+    background: blue;
+    border-radius: 50%;
+    text-align: center;
+    margin: -54px auto 54px;
+    z-index: 990;
+    position: relative;
+}
+
+img#myImgIcon {
+    margin-top: 20px;
+}
+
+img.trainer-image-icon {
+    margin-top: 17px;
+}
+
+.light-box {
+    display: none;
+}
+
+.light-box.open {
+    display: block;
+    position: fixed;
+    top: 20%;
+    width: 70%;
+    z-index: 999999999999999;
+    text-align: center;
+    background: #000;
+    left: 15%;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.light-box .close {
+    float: right;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.features-section {
+    background: #202020;
+}
+
+.features {
+    text-align: center;
+    color: blue;
+    padding-top: 90px;
+    padding-bottom: 11px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-section {
+    background-image: url(../images/footer-bg.jpg);
+    display: flow-root;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-logo {
+    border: 2px solid white;
+    font-size: 26px;
+    padding: 11px 16px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 3px;
+    width: 63px;
+    margin: 100px auto 50px auto;
+}
+
+.footer-nav {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+ul.footer-ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+li.footer-li {
+    padding: 28px;
+    list-style: none;
+}
+
+.footer-input {
+    text-align: center;
+}
+
+input.email-footer-input {
+    border: 2px solid #a8a3a3;
+    background: none;
+    padding: 20px 85px;
+    color: white;
+    font-family: cursive;
+    text-align: left;
+    font-size: 20px;
+    box-shadow: none;
+    border-right: 0px;
+}
+
+button.footer-button {
+    border: none;
+    padding: 25px 59px;
+    color: white;
+    background: blue;
+    font-size: 19px;
+    letter-spacing: 2px;
+    vertical-align: top;
+    margin-left: -4px;
+    cursor: pointer;
+}
+
+.social-icon-flex {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.social-icon {
+    padding: 0px 36px;
+    cursor: pointer;
+}
+
+.footer-icon {
+    text-align: center;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 37px;
+    letter-spacing: 1px;
+}
+
+.sidenav {
+    display: none;
+}
+
+.toggle {
+    display: none;
+}
+
+div#myModal {
+    display: none;
+}
+
+.mt-25 {
+    margin-top: 25px !important;
+}
