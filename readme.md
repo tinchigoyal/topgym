@@ -3,8 +3,9 @@ Mobile responsive template. Fit for the landing page of any gym website.
 
 
 ## Steps of local setup for the project.
-1. Open the terminal and run the command `git clone https://github.com/tinchigoyal/topgym.git`
-2. Open the index.html file in any browser.
+1. Install the GIT on your machine.
+2. Open the terminal and run the command `git clone https://github.com/tinchigoyal/topgym.git`
+3. Open the index.html file in any browser.
 
 
 ## Project Insights
